@@ -1,0 +1,105 @@
+/*custom-font*/
+
+@font-face {
+      font-family: poppin_regular;
+      src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+      font-family: poppin_semibold;
+      src: url(font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+      font-family: poppin_bold;
+      src: url(font/Poppins-Bold.ttf);
+}
+
+body {
+  font-family: poppin_regular;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*NAVIGATION*/
+
+.navbar{
+	background-color: #f0bb72;
+}
+
+/* change the link color and add padding for height */
+.mainNav .navbar-nav .nav-link {
+    color: black;
+    padding: 6px 10px;
+}
+
+/* change the color of active or hovered links */
+.mainNav .nav-item.active .nav-link,
+.mainNav .nav-item:hover .nav-link {
+    color: #ffffff;
+    background-color: #58595b; /* add background-color to active links */
+    border-radius: 5px;
+}
+
+/*HOME SECTION*/
+.home-section {
+  height: 100%;
+  padding-top: 4rem;
+}
+
+/*F&B DATA SECTION*/
+
+.fnb-section {
+  height: 100%;
+  padding-top: 5rem;
+}
+
+.foodProfile{
+    background-color: #f0bb72;
+    box-shadow: 5px 5px rgba(0,0,0, 0.4);
+    border-radius: 5px;
+}
+
+#logo{
+	height: 50px;
+	width: auto;
+}
+
+#field_label{
+	font-family: poppin_semibold;
+}
+
+#nutrition{
+	height: 50%;
+	width: auto;
+}
+
+/*ABOUT US SECTION*/
+
+.about-section {
+  height: 100%;
+  padding-top: 5rem;
+}
+
+#fbIcon, #igIcon{
+      color: #f0bb72;
+}
+
+iframe{
+      box-shadow: 5px 5px rgba(0,0,0, 0.4);
+      border-radius: 5px;
+}
+
+.inquiry{
+      background-color: #f0bb72;
+      box-shadow: 5px 5px rgba(0,0,0, 0.4);
+      border-radius: 5px;
+}
+
+/*FAQ*/
+.faq-section {
+  height: 100%;
+  padding-top: 5rem;
+}
