@@ -76,6 +76,13 @@ html {
 	width: auto;
 }
 
+.smallRedBox{
+    width: 60%;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+
 /*Transportation Status*/
 #progressbar {
     margin-bottom: 30px;
