@@ -43,8 +43,8 @@
                 Select
               </button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Beverages</a>
-                <a class="dropdown-item" href="#">Foods</a>
+                <a class="dropdown-item" href="cloudFresh.html">Cloud Fresh Drink</a>
+                <a class="dropdown-item" href="putihBread.html">Putih Bread</a>
               </div>
             </div>
           </div>
@@ -62,12 +62,12 @@
         
         <!--Data Records-->
         <div class="row pt-4">
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="container foodProfile">
                   <img src="img/sucie.png" class="img-fluid" alt="sucie">
                 </div>
             </div>
-            <div class="col-6 pt-4 description">
+            <div class="col-md-6 pt-4 description">
               <h3>SUCIE Distilled Drink 600ML</h3>
               <br>
               <p><span id="field_label">Ingredient & Nutrition Facts :</span>
@@ -110,7 +110,7 @@
                             <h4 class="modal-title font-weight-bold">Certification</h4>
                           </div>
                           <div class="modal-body">
-                              <img src="img/halalCert.PNG" class="img-fluid" alt="halal_cert" id="halal_cert">
+                              <img src="img/halalCert.png" class="img-fluid" alt="halal_cert" id="halal_cert">
                           </div>
                           <div class="modal-footer">
                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -119,7 +119,14 @@
                     </div><!--/modal-dialog-->
                   </div><!--/modal fade-->
               </p>
-            </div>
+              <!--Transportation history-->
+              <div class="container">
+                <ul id="progressbar">
+                    <li class="step0 active " id="step1"><span class="font-weight-bold">MANUFACTURER</span><br><span class="font-weight-bold">26/01/2021</span><br>McFlurry Beverage<br>Brunei Sdn Bhd</li>
+                    <li class="step0 active text-center" id="step2"><span class="font-weight-bold">DISTRIBUTER</span><br><span class="font-weight-bold">27/01/2021</span><br>T.R.T Enterprise</li>
+                    <li class="step0 active text-right" id="step3"><span class="font-weight-bold">IMPORTER</span><br><span class="font-weight-bold">29/01/2021</span><br>Special Water<br>Brunei Sdn Bhd</li><!--add if progress not done:text-muted-->
+                </ul>
+              </div>
         </div>
       </div><!--/container-->
       </section>
