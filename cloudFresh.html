@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <title>Kenali Makanan Kitani</title>
+  </head>
+  <body>
+    <!--Navigation Section-->
+    <nav class="navbar navbar-expand-lg navbar-light mainNav fixed-top">
+    <div class="container">
+          <a class="navbar-brand font-weight-bold" href="index.html"><span><img src="img/kmk_logo.png" id="logo"></span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="nav-item js-scroll-trigger ml-auto">
+                <a class="btn btn-outline-dark font-weight-bold" type="submit" id="homeBtn" href="index.html">Back to Homepage</a>
+              </div>
+          </div>
+      </div> 
+      </nav>
+      <!--  F&B DATA
+      ================================================== -->
+      <section class="fnb-section fnbData" id="fnbData">
+       <div class="container">
+        <h1 class="font-weight-bold">Food & Beverage Data</h1>
+        <br>
+        <!-- Search & Dropdown -->
+        <div class="d-flex flex-row">
+          <!--Dropdown-->
+          <div class="p-2">
+            <div class="btn-group">
+              <button class="btn btn-secondary btn-md dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="fnb.html">Sucie Distilled Drink</a>
+                <a class="dropdown-item" href="putihBread.html">Putih Bread</a>
+              </div>
+            </div>
+          </div>
+          <!--Search-->
+          <div class="p-2">
+            <div class="input-group md-form form-sm form-2 pl-0">
+            <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <span class="input-group-text" id="searchBox"><i class="fas fa-search text-grey"
+                  aria-hidden="true"></i></span>
+            </div>
+        </div>
+          </div>
+        </div>
+        
+        <!--Data Records-->
+        <div class="row pt-4">
+            <div class="col-6">
+                <div class="container foodProfile">
+                  <img src="img/cloudFresh.png" class="img-fluid" alt="cloud_fresh">
+                </div>
+            </div>
+            <div class="col-6 pt-4 description">
+              <h3>Cloudfresh Water</h3>
+              <br>
+              <p><span id="field_label">Ingredient & Nutrition Facts :</span>
+                <a data-toggle="modal" data-target="#ingredient" href=""> Show more</a></label>
+                <!-- Ingredient Modal -->
+                  <div class="modal fade" id="ingredient" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title font-weight-bold">Ingredient & Nutrition Facts</h4>
+                          </div>
+                                    <div class="modal-body">
+                                      <p>Ingredient : Distilled Drinking Water</p>
+                                      <br>
+                                      <img src="img/Nutrition.png" class="img-fluid" alt="nutrition" id="nutrition">
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                      </div><!--/modal-content-->
+                    </div><!--/modal-dialog-->
+                  </div><!--/modal fade-->
+              </p>
+              <p><span id="field_label">Batch No. :</span> 6634123</p>
+              <p><span id="field_label">Manufacturing Date :</span> 6/10/2021</p>
+              <p><span id="field_label">Expiry Date :</span> 6/10/2023</p>
+              <p><span id="field_label">Manufactured By :</span> Osmosis Beverage Brunei Sdn. Bhd.</p>
+              <p><span id="field_label">Imported By :</span> </p>
+              <p><span id="field_label">Distributed By :</span> W.T.Y Enterprise</p>
+              <p><span id="field_label">Certification :</span>
+                <a data-toggle="modal" data-target="#halal_cert" href=""> Show more</a></label>
+                <!-- Halal Cert Modal -->
+                  <div class="modal fade" id="halal_cert" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title font-weight-bold">Certification</h4>
+                          </div>
+                          <div class="modal-body">
+                              <img src="img/halal_cert.png" class="img-fluid" alt="halal_cert" id="halal_cert">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                      </div><!--/modal-content-->
+                    </div><!--/modal-dialog-->
+                  </div><!--/modal fade-->
+              </p>
+              <!--Transportation history-->
+              <div class="container">
+                <ul id="progressbar">
+                    <li class="step0 active " id="step1"><span class="font-weight-bold">MANUFACTURER</span><br><span class="font-weight-bold">26/01/2021</span><br>McFlurry Beverage<br>Brunei Sdn Bhd</li>
+                    <li class="step0 active text-center" id="step2"><span class="font-weight-bold">DISTRIBUTER</span><br><span class="font-weight-bold">27/01/2021</span><br>T.R.T Enterprise</li>
+                    <li class="step0 active text-right" id="step3"><span class="font-weight-bold">IMPORTER</span><br><span class="font-weight-bold">29/01/2021</span><br>Special Water<br>Brunei Sdn Bhd</li><!--add if progress not done:text-muted-->
+                </ul>
+              </div>
+        </div>
+            </div>
+        </div>
+      </div><!--/container-->
+      </section>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
