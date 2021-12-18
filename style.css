@@ -179,6 +179,24 @@ iframe{
       border-radius: 5px;
 }
 
+/*Location Update*/
+.locUpdate-section{
+    height: 100%;
+    padding-top: 5rem;
+}
+
+.receiverQr{
+    background-color: #f0bb72;
+    box-shadow: 5px 5px rgba(0,0,0, 0.4);
+    border-radius: 5px;
+}
+
+.productQr{
+    background-color: #f0bb72;
+    box-shadow: 5px 5px rgba(0,0,0, 0.4);
+    border-radius: 5px;
+}
+
 /*Login*/
 
 .login-section {
@@ -195,10 +213,16 @@ iframe{
     border-radius: 5px;
 }
 
+/*Dashboard*/
+.dashboard-section{
+    height: 100%;
+    padding-top: 5rem;
+}
+
 /*FAQ*/
 .faq-section {
-  height: 100%;
-  padding-top: 5rem;
+    height: 100%;
+    padding-top: 5rem;
 }
 
 .accordion {
