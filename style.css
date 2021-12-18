@@ -200,3 +200,31 @@ iframe{
   height: 100%;
   padding-top: 5rem;
 }
+
+.accordion {
+      background-color: #f0bb72;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 18px;
+      transition: 0.4s;
+      box-shadow: 5px 5px rgba(0,0,0, 0.4);
+        border-radius: 5px;
+  }
+
+  .accordion .active, .accordion:hover {
+      color: #ffffff;
+      background-color: #58595b; 
+  }
+
+  .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: #eee;
+      overflow: hidden;
+      text-align: left;
+  }
